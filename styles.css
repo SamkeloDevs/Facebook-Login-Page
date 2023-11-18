@@ -16,6 +16,7 @@ h1 {
  color: #2929a0;
  text-align: center;
  margin: 25px;
+ margin-top: 0;
 }
 
 .container {
@@ -27,7 +28,7 @@ h1 {
    display: block;
    margin: 30px auto;
    border: 1px solid #00000000;
-   padding:  10px 30px;
+   padding:  40px 30px;
    box-shadow: 0 0 20px #00000030 ;
 }
 
@@ -35,10 +36,15 @@ input {
    border-radius: 3px;
    border-width: 1px;
    display: block;
-   width: 97%;
+   width: 90%;
    height: 32px;
    margin: 10px auto;
-   
+}
+
+.mail_or_phone,
+.password {
+  padding: 5px 17px;
+  font-size: 16px;
 }
 
 .description {
@@ -65,7 +71,7 @@ input {
    height: 40px;
    width: 170px;
    padding:  10px 3px;
-   margin: auto;
+   margin: 25px auto;
 }
 
 .login {
